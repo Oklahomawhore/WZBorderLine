@@ -17,4 +17,9 @@ one line of code! use calayer masks to choose which side do you want!
 2. import header file
 3. be efficient...
 
-`[BorderView borderForView:#YourView lineWidth:1 lineColor:UIColor.redColor mask:(kCALayerLeftEdge | kCALayerRightEdge | kCALayerTopEdge)];`
+```
+[BorderView borderForView:#YourView 
+                 lineWidth:1 
+                 lineColor:UIColor.redColor
+                      mask:(kCALayerLeftEdge | kCALayerRightEdge | kCALayerTopEdge)];
+```
